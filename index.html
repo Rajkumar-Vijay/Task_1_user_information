@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png"
+    />
+    <title>User Information Form</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <div>
+        <label for="name"
+          >Name <span style="color: red">*</span>:
+          <input type="text" name="name" id="name" min="1" required />
+        </label>
+      </div>
+      <div>
+        <label for="email"
+          >Email ID:<span style="color: red">*</span>
+          <input type="email" name="email" id="email" required />
+        </label>
+      </div>
+      <div>
+        <label for="number">
+          Phone Number:<span style="color: red">*</span>
+          <input type="number" name="number" id="number" required />
+        </label>
+      </div>
+      <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
